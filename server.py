@@ -4,6 +4,7 @@ from cryptography.hazmat.primitives.asymmetric import rsa, padding
 from cryptography.exceptions import InvalidSignature
 from cryptography.hazmat.primitives import serialization
 
+# i dont like this - scale
 class Crypto:
     def gen_pair(self):
         key_size = 2048
